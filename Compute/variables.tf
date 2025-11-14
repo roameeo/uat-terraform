@@ -15,7 +15,12 @@ variable "dc2_name" {
 
 variable "ad_subnet_id" {
   type        = string
-  description = "ID of the subnet for compute resources"
+  description = "ID of the AD subnet for domain controllers"
+}
+
+variable "application_subnet_id" {
+  type        = string
+  description = "ID of the application subnet"
 }
 
 variable "tags" {

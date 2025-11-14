@@ -3,8 +3,7 @@ network_rg_name = "UATNETRG"
 servers_rg_name = "UATSERVERRG"
 
 # Network
-vnet_name      = "UATSERVERVNET"
-subnet_name_ad = "UATSERVERS"
+vnet_name = "UATSERVERVNET"
 
 # Virtual Machines
 dc1_name = "UATAD01"

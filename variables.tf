@@ -36,12 +36,6 @@ variable "vnet_name" {
   default     = "UATSERVERVNET"
 }
 
-variable "subnet_name_ad" {
-  type        = string
-  description = "Name of the servers subnet"
-  default     = "UATSERVERS"
-}
-
 # VM Names
 variable "dc1_name" {
   type        = string

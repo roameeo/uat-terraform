@@ -1,6 +1,16 @@
 output "ad_subnet_id" {
-  value       = azurerm_subnet.servers.id
-  description = "ID of the servers subnet for compute resources"
+  value       = azurerm_subnet.ad.id
+  description = "ID of the AD subnet for domain controllers"
+}
+
+output "application_subnet_id" {
+  value       = azurerm_subnet.application.id
+  description = "ID of the application subnet"
+}
+
+output "sql_subnet_id" {
+  value       = azurerm_subnet.sql.id
+  description = "ID of the SQL subnet"
 }
 
 output "vnet_id" {

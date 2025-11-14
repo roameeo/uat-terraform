@@ -60,7 +60,7 @@ resource "azurerm_network_interface" "uatmulti01" {
 
   ip_configuration {
     name                          = "IPCONFIG1"
-    subnet_id                     = var.ad_subnet_id
+    subnet_id                     = var.application_subnet_id
     private_ip_address_allocation = "Dynamic"
   }
 }

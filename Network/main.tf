@@ -22,11 +22,25 @@ resource "azurerm_subnet" "bastion" {
   address_prefixes     = ["10.0.1.0/26"]
 }
 
-resource "azurerm_subnet" "servers" {
-  name                 = var.subnet_name_ad
+resource "azurerm_subnet" "ad" {
+  name                 = "UATAD"
   resource_group_name  = var.rg_name
   virtual_network_name = azurerm_virtual_network.vnet.name
-  address_prefixes     = [var.subnet_ad_prefix]
+  address_prefixes     = ["10.0.2.0/25"]  # 10.0.2.0 - 10.0.2.127
+}
+
+resource "azurerm_subnet" "application" {
+  name                 = "UATAPPLICATION"
+  resource_group_name  = var.rg_name
+  virtual_network_name = azurerm_virtual_network.vnet.name
+  address_prefixes     = ["10.0.2.128/26"]  # 10.0.2.128 - 10.0.2.191
+}
+
+resource "azurerm_subnet" "sql" {
+  name                 = "UATSQL"
+  resource_group_name  = var.rg_name
+  virtual_network_name = azurerm_virtual_network.vnet.name
+  address_prefixes     = ["10.0.2.192/26"]  # 10.0.2.192 - 10.0.2.255
 }
 
 # Bastion Public IP

@@ -12,7 +12,6 @@ module "network" {
   source          = "./Network"
   rg_name         = module.resource_groups.network_rg_name
   vnet_name       = var.vnet_name
-  subnet_name_ad  = var.subnet_name_ad
   tags            = var.tags
   location        = var.location
 
@@ -21,14 +20,15 @@ module "network" {
 
 # Compute Module
 module "compute" {
-  source         = "./Compute"
-  rg_name        = module.resource_groups.servers_rg_name
-  dc1_name       = var.dc1_name
-  dc2_name       = var.dc2_name
-  ad_subnet_id   = module.network.ad_subnet_id
-  tags           = var.tags
-  admin_password = var.admin_password
-  location       = var.location
+  source                = "./Compute"
+  rg_name               = module.resource_groups.servers_rg_name
+  dc1_name              = var.dc1_name
+  dc2_name              = var.dc2_name
+  ad_subnet_id          = module.network.ad_subnet_id
+  application_subnet_id = module.network.application_subnet_id
+  tags                  = var.tags
+  admin_password        = var.admin_password
+  location              = var.location
 
   depends_on = [module.network]
 }
