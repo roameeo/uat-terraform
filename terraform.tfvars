@@ -1,12 +1,19 @@
-rg_name       = "UATNETRG"
-vnet_name     = "UATSERVERVNET"
+# Resource Groups
+network_rg_name = "UATNETRG"
+servers_rg_name = "UATSERVERRG"
+
+# Network
+vnet_name      = "UATSERVERVNET"
 subnet_name_ad = "UATSERVERS"
 
-# Optional overrides (domain controller VM names)
+# Virtual Machines
 dc1_name = "UATAD01"
 dc2_name = "UATAD02"
 
-# Tags map (example)
+# Security - Set your admin password here or via environment variable TF_VAR_admin_password
+# admin_password = "YourSecurePasswordHere"
+
+# Common Tags
 tags = {
   BuildBy     = "Stormy"
   BuildDate   = "2025-11-10"

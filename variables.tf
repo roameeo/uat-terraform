@@ -1,46 +1,71 @@
 ﻿variable "location" {
-  type    = string
-  default = "centralus"
+  type        = string
+  description = "Azure region for resources"
+  default     = "centralus"
 }
 
 variable "project" {
-  type    = string
-  default = "new-uat"
+  type        = string
+  description = "Project name"
+  default     = "new-uat"
 }
 
 variable "env" {
-  type    = string
-  default = "uat"
+  type        = string
+  description = "Environment name"
+  default     = "uat"
 }
 
-# Names of existing resources you want to import
-variable "rg_name" {
-  type = string
+# Resource Group Names
+variable "network_rg_name" {
+  type        = string
+  description = "Name of the network resource group"
+  default     = "UATNETRG"
 }
 
+variable "servers_rg_name" {
+  type        = string
+  description = "Name of the servers resource group"
+  default     = "UATSERVERRG"
+}
+
+# Network Configuration
 variable "vnet_name" {
-  type = string
+  type        = string
+  description = "Name of the virtual network"
+  default     = "UATSERVERVNET"
 }
 
 variable "subnet_name_ad" {
-  type    = string
-  default = "UATSERVERS"
+  type        = string
+  description = "Name of the servers subnet"
+  default     = "UATSERVERS"
 }
 
-# Existing VM names (domain controllers)
+# VM Names
 variable "dc1_name" {
-  type    = string
-  default = "UATAD01"
+  type        = string
+  description = "Name of the first domain controller"
+  default     = "UATAD01"
 }
 
 variable "dc2_name" {
-  type    = string
-  default = "UATAD02"
+  type        = string
+  description = "Name of the second domain controller"
+  default     = "UATAD02"
+}
+
+# Security
+variable "admin_password" {
+  type        = string
+  description = "Admin password for VMs (required for import)"
+  sensitive   = true
 }
 
 # Common tags
 variable "tags" {
-  type = map(string)
+  type        = map(string)
+  description = "Tags to apply to all resources"
   default = {
     BuildBy     = "Stormy"
     BuildDate   = "2025-11-10"
