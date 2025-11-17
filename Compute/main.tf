@@ -65,6 +65,18 @@ resource "azurerm_network_interface" "uatmulti01" {
   }
 }
 
+resource "azurerm_network_interface" "uatiis01" {
+  name                = "uatiis01871"
+  location            = var.location
+  resource_group_name = var.rg_name
+
+  ip_configuration {
+    name                          = "IPCONFIG1"
+    subnet_id                     = var.application_subnet_id
+    private_ip_address_allocation = "Dynamic"
+  }
+}
+
 resource "azurerm_network_interface_security_group_association" "uatmulti01" {
   network_interface_id      = azurerm_network_interface.uatmulti01.id
   network_security_group_id = azurerm_network_security_group.uatmulti01.id
@@ -201,7 +213,7 @@ resource "azurerm_windows_virtual_machine" "uatiis01" {
   license_type        = "Windows_Server"
 
   network_interface_ids = [
-    azurerm_network_interface.uatmulti01.id,
+    azurerm_network_interface.uatiis01.id,
   ]
 
   os_disk {
@@ -226,6 +238,6 @@ resource "azurerm_windows_virtual_machine" "uatiis01" {
     "Contact"     = "Glenn Redfern"
     "Environment" = "UAT"
     "Function"    = "UAT IIS Server"
-    "Owner"       = "Cloud Admins"
+     "Owner"       = "Cloud Admins"
   }
 }
