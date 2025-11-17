@@ -190,3 +190,42 @@ resource "azurerm_virtual_machine_data_disk_attachment" "uatmulti01_data" {
   lun                = 0
   caching            = "ReadOnly"
 }
+
+resource "azurerm_windows_virtual_machine" "uatiis01" {
+  name                = "UATIIS01"
+  location            = var.location
+  resource_group_name = var.rg_name
+  size                = "Standard_D4as_v6"
+  admin_username      = "azadmin"
+  admin_password      = var.admin_password
+  license_type        = "Windows_Server"
+
+  network_interface_ids = [
+    azurerm_network_interface.uatmulti01.id,
+  ]
+
+  os_disk {
+    name                 = "UATIIS01_OsDisk_1_dd4f35cabe854be9b0160868e28e5d02"
+    caching              = "ReadWrite"
+    storage_account_type = "Premium_LRS"
+    disk_size_gb         = 127
+  }
+
+  source_image_reference {
+    publisher = "MicrosoftWindowsServer"
+    offer     = "WindowsServer"
+    sku       = "2022-datacenter-azure-edition"
+    version   = "latest"
+  }
+
+  boot_diagnostics {}
+
+  tags = {
+    "Build by"    = "Stormy Winters"
+    "Build date"  = "11/17/2025"
+    "Contact"     = "Glenn Redfern"
+    "Environment" = "UAT"
+    "Function"    = "UAT IIS Server"
+    "Owner"       = "Cloud Admins"
+  }
+}
