@@ -32,10 +32,8 @@ resource "azurerm_network_interface" "uatad01" {
     name                          = "IPCONFIG1"
     subnet_id                     = var.ad_subnet_id
     private_ip_address_allocation = "Dynamic"
-    public_ip_address_id          = azurerm_public_ip.uatad01.id
   }
 }
-
 resource "azurerm_network_interface_security_group_association" "uatad01" {
   network_interface_id      = azurerm_network_interface.uatad01.id
   network_security_group_id = azurerm_network_security_group.uatad01.id
@@ -77,9 +75,36 @@ resource "azurerm_network_interface" "uatiis01" {
   }
 }
 
+resource "azurerm_network_interface" "uatnav01" {
+  name                = "uatnav01872"
+  location            = var.location
+  resource_group_name = var.rg_name
+
+  ip_configuration {
+    name                          = "IPCONFIG1"
+    subnet_id                     = var.application_subnet_id
+    private_ip_address_allocation = "Dynamic"
+  }
+}
+
 resource "azurerm_network_interface_security_group_association" "uatmulti01" {
   network_interface_id      = azurerm_network_interface.uatmulti01.id
   network_security_group_id = azurerm_network_security_group.uatmulti01.id
+}
+
+# Optionally load per-VM admin passwords from Azure Key Vault
+data "azurerm_key_vault_secret" "vm_passwords" {
+  for_each     = var.key_vault_id != null && length(var.vm_password_secret_names) > 0 ? var.vm_password_secret_names : {}
+  name         = each.value
+  key_vault_id = var.key_vault_id
+}
+
+locals {
+  # Map VM name => password value when Key Vault is configured; empty otherwise
+  admin_passwords = var.key_vault_id != null && length(var.vm_password_secret_names) > 0 ? {
+    for vm_name, _ in var.vm_password_secret_names :
+    vm_name => data.azurerm_key_vault_secret.vm_passwords[vm_name].value
+  } : {}
 }
 
 # Virtual Machines
@@ -89,7 +114,7 @@ resource "azurerm_windows_virtual_machine" "uatad01" {
   resource_group_name = var.rg_name
   size                = "Standard_D2ds_v6"
   admin_username      = "azadmin"
-  admin_password      = var.admin_password
+  admin_password      = try(local.admin_passwords[var.dc1_name], var.admin_password)
   license_type        = "Windows_Server"
 
   network_interface_ids = [
@@ -121,7 +146,7 @@ resource "azurerm_windows_virtual_machine" "uatad02" {
   resource_group_name = var.rg_name
   size                = "Standard_D2ds_v6"
   admin_username      = "azadmin"
-  admin_password      = var.admin_password
+  admin_password      = try(local.admin_passwords[var.dc2_name], var.admin_password)
   license_type        = "Windows_Server"
 
   network_interface_ids = [
@@ -153,7 +178,7 @@ resource "azurerm_windows_virtual_machine" "uatmulti01" {
   resource_group_name = var.rg_name
   size                = "Standard_D4as_v6"
   admin_username      = "azadmin"
-  admin_password      = var.admin_password
+  admin_password      = try(local.admin_passwords["UATMULTI01"], var.admin_password)
   license_type        = "Windows_Server"
 
   network_interface_ids = [
@@ -209,7 +234,7 @@ resource "azurerm_windows_virtual_machine" "uatiis01" {
   resource_group_name = var.rg_name
   size                = "Standard_D4as_v6"
   admin_username      = "azadmin"
-  admin_password      = var.admin_password
+  admin_password      = try(local.admin_passwords["UATIIS01"], var.admin_password)
   license_type        = "Windows_Server"
 
   network_interface_ids = [
@@ -248,7 +273,7 @@ resource "azurerm_windows_virtual_machine" "uatnav01" {
   resource_group_name = var.rg_name
   size                = "Standard_D4as_v6"
   admin_username      = "azadmin"
-  admin_password      = var.admin_password
+  admin_password      = try(local.admin_passwords["UATNAV01"], var.admin_password)
   license_type        = "Windows_Server"
 
   network_interface_ids = [

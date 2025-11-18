@@ -28,6 +28,8 @@ module "compute" {
   application_subnet_id = module.network.application_subnet_id
   tags                  = var.tags
   admin_password        = var.admin_password
+  key_vault_id          = var.key_vault_id
+  vm_password_secret_names = var.vm_password_secret_names
   location              = var.location
 
   depends_on = [module.network]

@@ -13,6 +13,11 @@ output "uatmulti01_id" {
   description = "ID of UATMULTI01 VM"
 }
 
+output "uatiis01_id" {
+  value       = azurerm_windows_virtual_machine.uatiis01.id
+  description = "ID of UATIIS01 VM"
+}
+
 output "uatad01_private_ip" {
   value       = azurerm_network_interface.uatad01.private_ip_address
   description = "Private IP of UATAD01"
@@ -26,4 +31,9 @@ output "uatad02_private_ip" {
 output "uatmulti01_private_ip" {
   value       = azurerm_network_interface.uatmulti01.private_ip_address
   description = "Private IP of UATMULTI01"
+}
+
+output "uatiis01_private_ip" {
+  value       = azurerm_network_interface.uatiis01.private_ip_address
+  description = "Private IP of UATIIS01"
 }

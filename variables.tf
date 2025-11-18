@@ -56,6 +56,19 @@ variable "admin_password" {
   sensitive   = true
 }
 
+# Optional: Azure Key Vault wiring for per-VM passwords
+variable "key_vault_id" {
+  type        = string
+  description = "Resource ID of the Azure Key Vault that holds VM admin password secrets"
+  default     = null
+}
+
+variable "vm_password_secret_names" {
+  type        = map(string)
+  description = "Map of VM names to Key Vault secret names for admin passwords"
+  default     = {}
+}
+
 # Common tags
 variable "tags" {
   type        = map(string)
