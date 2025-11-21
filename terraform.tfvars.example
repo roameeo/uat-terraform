@@ -8,11 +8,12 @@ key_vault_id = "/subscriptions/f830b735-d380-4c43-b54b-73ba9ff8cd9d/resourceGrou
 
 # Map of VM name => Key Vault secret name (create these secrets first)
 vm_password_secret_names = {
-  UATAD01    = "UATAD01"
-  UATAD02    = "UATAD02"
-  UATMULTI01 = "UATMULTI01"
-  UATIIS01   = "UATIIS01"
-  UATNAV01   = "UATNAV01"
+  UATAD01     = "UATAD01"
+  UATAD02     = "UATAD02"
+  UATMULTI01  = "UATMULTI01"
+  UATIIS01    = "UATIIS01"
+  UATATLAS01  = "UATATLAS01"
+  UATSQL01    = "UATSQL01"
 }
 
 # Legacy fallback (leave blank or remove once all VMs use Key Vault)
