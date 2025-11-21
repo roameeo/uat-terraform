@@ -1,0 +1,28 @@
+###############################################
+# Example terraform.tfvars for per-VM passwords
+# Do NOT commit real passwords. Only secret names.
+###############################################
+
+# Azure Key Vault resource ID containing VM admin password secrets
+key_vault_id = "/subscriptions/f830b735-d380-4c43-b54b-73ba9ff8cd9d/resourceGroups/CUS-UAT-KV-RG/providers/Microsoft.KeyVault/vaults/CUS-UAT-KEYVAULT"
+
+# Map of VM name => Key Vault secret name (create these secrets first)
+vm_password_secret_names = {
+  UATAD01     = "UATAD01"
+  UATAD02     = "UATAD02"
+  UATMULTI01  = "UATMULTI01"
+  UATIIS01    = "UATIIS01"
+  UATNAV01    = "UATNAV01"    # UATATLAS01 uses this secret (VM was renamed)
+  UATSQL01    = "UATSQL01"
+}
+
+# Legacy fallback (leave blank or remove once all VMs use Key Vault)
+# admin_password = "REDACTED"
+
+# Other existing variables you may already set (examples):
+# location = "centralus"
+# project  = "new-uat"
+# env      = "uat"
+# network_rg_name = "UATNETRG"
+# servers_rg_name = "UATSERVERRG"
+# vnet_name = "UATSERVERVNET"

@@ -25,3 +25,19 @@ variable "vnet_address_space" {
   description = "Address space for the virtual network"
   default     = ["10.0.0.0/22"]
 }
+
+variable "avd_rg_name" {
+  type        = string
+  description = "Name of the AVD resource group"
+}
+
+variable "avd_vnet_name" {
+  type        = string
+  description = "Name of the AVD virtual network"
+}
+
+variable "avd_vnet_address_space" {
+  type        = list(string)
+  description = "Address space for the AVD virtual network"
+  default     = ["10.1.0.0/22"]
+}

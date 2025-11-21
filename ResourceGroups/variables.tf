@@ -8,6 +8,11 @@ variable "servers_rg_name" {
   description = "Name of the servers resource group"
 }
 
+variable "avd_rg_name" {
+  type        = string
+  description = "Name of the AVD resource group"
+}
+
 variable "location" {
   type        = string
   description = "Azure region for resources"
