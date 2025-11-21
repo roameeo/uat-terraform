@@ -23,6 +23,11 @@ variable "application_subnet_id" {
   description = "ID of the application subnet"
 }
 
+variable "sql_subnet_id" {
+  type        = string
+  description = "ID of the SQL subnet"
+}
+
 variable "tags" {
   type        = map(string)
   description = "Tags to apply to resources"

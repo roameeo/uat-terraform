@@ -37,3 +37,23 @@ output "uatiis01_private_ip" {
   value       = azurerm_network_interface.uatiis01.private_ip_address
   description = "Private IP of UATIIS01"
 }
+
+output "uatatlas01_id" {
+  value       = azurerm_windows_virtual_machine.uatatlas01.id
+  description = "ID of UATATLAS01 VM"
+}
+
+output "uatatlas01_private_ip" {
+  value       = azurerm_network_interface.uatatlas01.private_ip_address
+  description = "Private IP of UATATLAS01"
+}
+
+output "uatsql01_id" {
+  value       = azurerm_windows_virtual_machine.uatsql01.id
+  description = "ID of UATSQL01 VM"
+}
+
+output "uatsql01_private_ip" {
+  value       = azurerm_network_interface.uatsql01.private_ip_address
+  description = "Private IP of UATSQL01"
+}

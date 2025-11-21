@@ -11,3 +11,9 @@ resource "azurerm_resource_group" "servers" {
   location = var.location
   tags     = var.tags
 }
+
+resource "azurerm_resource_group" "avd" {
+  name     = var.avd_rg_name
+  location = var.location
+  tags     = var.tags
+}
