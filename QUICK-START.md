@@ -13,7 +13,7 @@ az keyvault secret set --vault-name CUS-UAT-KEYVAULT --name UATAD01 --value <PAS
 az keyvault secret set --vault-name CUS-UAT-KEYVAULT --name UATAD02 --value <PASSWORD_FOR_UATAD02>
 az keyvault secret set --vault-name CUS-UAT-KEYVAULT --name UATMULTI01 --value <PASSWORD_FOR_UATMULTI01>
 az keyvault secret set --vault-name CUS-UAT-KEYVAULT --name UATIIS01 --value <PASSWORD_FOR_UATIIS01>
-az keyvault secret set --vault-name CUS-UAT-KEYVAULT --name UATATLAS01 --value <PASSWORD_FOR_UATATLAS01>
+az keyvault secret set --vault-name CUS-UAT-KEYVAULT --name UATNAV01 --value <PASSWORD_FOR_UATNAV01>
 az keyvault secret set --vault-name CUS-UAT-KEYVAULT --name UATSQL01 --value <PASSWORD_FOR_UATSQL01>
 ```
 
@@ -22,7 +22,7 @@ az keyvault secret set --vault-name CUS-UAT-KEYVAULT --name UATSQL01 --value <PA
 
 ```powershell
 $env:TF_VAR_key_vault_id = "/subscriptions/f830b735-d380-4c43-b54b-73ba9ff8cd9d/resourceGroups/CUS-UAT-KV-RG/providers/Microsoft.KeyVault/vaults/CUS-UAT-KEYVAULT"
-$env:TF_VAR_vm_password_secret_names = '{"UATAD01":"UATAD01","UATAD02":"UATAD02","UATMULTI01":"UATMULTI01","UATIIS01":"UATIIS01","UATATLAS01":"UATATLAS01","UATSQL01":"UATSQL01"}'
+$env:TF_VAR_vm_password_secret_names = '{"UATAD01":"UATAD01","UATAD02":"UATAD02","UATMULTI01":"UATMULTI01","UATIIS01":"UATIIS01","UATNAV01":"UATNAV01","UATSQL01":"UATSQL01"}'
 ```
 
 1. (Optional) Remove or leave blank `admin_password` once all VMs use Key Vault.

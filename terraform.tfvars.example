@@ -12,7 +12,7 @@ vm_password_secret_names = {
   UATAD02     = "UATAD02"
   UATMULTI01  = "UATMULTI01"
   UATIIS01    = "UATIIS01"
-  UATATLAS01  = "UATATLAS01"
+  UATNAV01    = "UATNAV01"    # UATATLAS01 uses this secret (VM was renamed)
   UATSQL01    = "UATSQL01"
 }
 

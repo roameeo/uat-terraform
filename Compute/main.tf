@@ -292,7 +292,7 @@ resource "azurerm_windows_virtual_machine" "uatatlas01" {
   resource_group_name = var.rg_name
   size                = "Standard_D4as_v6"
   admin_username      = "azadmin"
-  admin_password      = try(local.admin_passwords["UATATLAS01"], var.admin_password)
+  admin_password      = try(local.admin_passwords["UATNAV01"], var.admin_password)
   license_type        = "Windows_Server"
 
   network_interface_ids = [
