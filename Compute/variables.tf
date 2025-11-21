@@ -58,3 +58,23 @@ variable "vm_password_secret_names" {
   description = "Map of VM names to Key Vault secret names for admin passwords"
   default     = {}
 }
+
+# Domain join / Active Directory related variables
+variable "domain_name" {
+  type        = string
+  description = "AD domain name (e.g. example.com) used for domain join"
+  default     = null
+}
+
+variable "domain_admin_password_secret_name" {
+  type        = string
+  description = "Key Vault secret name containing the domain admin password for joins"
+  default     = null
+}
+
+variable "domain_admin_password" {
+  type        = string
+  description = "Fallback plain domain admin password when a Key Vault secret is not used"
+  sensitive   = true
+  default     = null
+}

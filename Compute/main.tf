@@ -102,12 +102,21 @@ data "azurerm_key_vault_secret" "vm_passwords" {
   key_vault_id = var.key_vault_id
 }
 
+data "azurerm_key_vault_secret" "domain_admin_pwd" {
+  count       = var.key_vault_id != null && var.domain_admin_password_secret_name != null ? 1 : 0
+  name        = var.domain_admin_password_secret_name
+  key_vault_id = var.key_vault_id
+}
+
 locals {
   # Map VM name => password value when Key Vault is configured; empty otherwise
   admin_passwords = var.key_vault_id != null && length(var.vm_password_secret_names) > 0 ? {
     for vm_name, _ in var.vm_password_secret_names :
     vm_name => data.azurerm_key_vault_secret.vm_passwords[vm_name].value
   } : {}
+
+  # Domain admin password resolved from Key Vault if secret specified, else fallback variable
+  domain_admin_pwd = var.domain_admin_password_secret_name != null && var.key_vault_id != null ? data.azurerm_key_vault_secret.domain_admin_pwd[0].value : var.domain_admin_password
 }
 
 # Virtual Machines
@@ -292,7 +301,7 @@ resource "azurerm_windows_virtual_machine" "uatatlas01" {
   resource_group_name = var.rg_name
   size                = "Standard_D4as_v6"
   admin_username      = "azadmin"
-  admin_password      = try(local.admin_passwords["UATNAV01"], var.admin_password)
+  admin_password      = try(local.admin_passwords["UATATLAS01"], var.admin_password)
   license_type        = "Windows_Server"
 
   network_interface_ids = [
