@@ -57,3 +57,15 @@ variable "avd_ou_path" {
   type        = string
   default     = ""
 }
+
+variable "key_vault_id" {
+  description = "Resource ID of the Azure Key Vault for retrieving secrets"
+  type        = string
+  default     = null
+}
+
+variable "domain_admin_password_secret_name" {
+  description = "Name of the Key Vault secret containing the domain admin password"
+  type        = string
+  default     = null
+}

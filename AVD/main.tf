@@ -1,6 +1,18 @@
 # Azure Virtual Desktop Configuration
 # Host Pool: 5 × Standard_D16ds_v5, 4 sessions per host = 20 total capacity
 
+# Retrieve domain admin password from Key Vault if configured
+data "azurerm_key_vault_secret" "domain_admin_pwd" {
+  count        = var.key_vault_id != null && var.domain_admin_password_secret_name != null ? 1 : 0
+  name         = var.domain_admin_password_secret_name
+  key_vault_id = var.key_vault_id
+}
+
+locals {
+  # Domain admin password resolved from Key Vault if secret specified, else fallback variable
+  domain_admin_pwd = var.domain_admin_password_secret_name != null && var.key_vault_id != null ? data.azurerm_key_vault_secret.domain_admin_pwd[0].value : var.domain_admin_password
+}
+
 # Random string for unique resource names
 resource "random_string" "unique" {
   length  = 4
@@ -153,7 +165,7 @@ resource "azurerm_virtual_machine_extension" "domain_join_avd" {
   })
 
   protected_settings = jsonencode({
-    Password = var.domain_admin_password
+    Password = local.domain_admin_pwd
   })
 
   tags = var.tags

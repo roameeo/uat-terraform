@@ -49,17 +49,19 @@ module "compute" {
 
 # AVD Module
 module "avd" {
-  source                 = "./AVD"
-  rg_name                = module.resource_groups.avd_rg_name
-  location               = var.location
-  tags                   = var.tags
-  avd_subnet_id          = module.network.avd_workspaces_subnet_id
-  dns_servers            = ["10.0.2.5", "10.0.2.4"]
-  admin_username         = var.admin_username
-  admin_password         = var.admin_password
-  domain_name            = var.domain_name
-  domain_join_username   = var.domain_join_username
-  domain_admin_password  = var.domain_admin_password
+  source                            = "./AVD"
+  rg_name                           = module.resource_groups.avd_rg_name
+  location                          = var.location
+  tags                              = var.tags
+  avd_subnet_id                     = module.network.avd_workspaces_subnet_id
+  dns_servers                       = ["10.0.2.5", "10.0.2.4"]
+  admin_username                    = var.admin_username
+  admin_password                    = var.admin_password
+  domain_name                       = var.domain_name
+  domain_join_username              = var.domain_join_username
+  domain_admin_password             = var.domain_admin_password
+  key_vault_id                      = var.key_vault_id
+  domain_admin_password_secret_name = var.domain_admin_password_secret_name
 
   depends_on = [module.network, module.compute]
 }
