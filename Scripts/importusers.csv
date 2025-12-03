@@ -1,0 +1,307 @@
+﻿SamAccountName,UserPrincipalName,Name,Enabled,LastLogon,PwdLastSet,Groups
+aclemmons,aclemmons@uat.local,Aaron Clemmons,FALSE,12/2/2019 14:46,11/25/2019 14:55,
+across,across@uat.local,Aaron Cross                                                 ,FALSE,,,
+afahmy,afahmy@uat.local,Abdulhakim Al Fahmy                                         ,TRUE,6/6/2024 13:31,5/30/2024 16:17,
+Administrator,,Administrator,TRUE,5/20/2019 16:16,5/13/2019 19:09,"Domain Admins, Enterprise Admins, Schema Admins, Administrators, Group Policy Creator Owners"
+AgedAccountReceivabl,AgedAccountReceivable@uat.local,AgedAccountReceivable,TRUE,8/19/2022 17:17,5/28/2020 13:48,
+askinner,askinner@uat.local,Al Skinner                                                  ,FALSE,4/1/2021 13:19,,
+AHossain,AHossain@uat.local,Alamin Hossain,FALSE,11/2/2020 8:59,11/9/2020 10:41,
+ABetts,ABetts@uat.local,Alex Betts,TRUE,11/17/2025 14:05,1/6/2025 10:07,"NAV_PDF_Reader_PDox, IT"
+aphillips.adm,aphillips.adm@uat.local,Alex Phillips Admin,FALSE,11/2/2023 10:11,5/21/2019 14:49,
+AWill,AWill@uat.local,Alexander Will,TRUE,11/18/2025 15:10,1/6/2025 10:06,"Atlas Authentication, SQL 2019 Cluster Admins, SQL Cluster Admins, IT, Domain Admins"
+ahale,ahale@uat.local,Alexandria Hale,FALSE,12/9/2019 14:35,11/25/2019 14:56,
+aread,aread@uat.local,Alicia Read                                                 ,FALSE,,5/22/2019 13:58,
+ALawhorn,ALawhorn@uat.local,Alisha Lawhorn,FALSE,7/31/2023 13:46,,
+ateran,ateran@uat.local,Alvaro Teran                                                ,TRUE,8/24/2020 9:46,5/22/2019 13:58,
+acontella,acontella@uat.local,Amanda Contella                                             ,FALSE,9/18/2022 15:15,,
+amishonov,amishonov@uat.local,Andrey Mishonov,FALSE,7/22/2024 10:17,7/29/2024 9:11,
+AVootla,AVootla@uat.local,Aneel Vootla,FALSE,9/25/2021 11:10,,
+aschlemmer,aschlemmer@uat.local,Angela Schlemmer                                            ,FALSE,3/17/2020 15:18,4/14/2021 13:48,
+ALittle,ALittle@uat.local,Anika Little                                                ,FALSE,12/15/2020 16:30,12/15/2020 16:30,
+AChilambi,AChilambi@uat.local,Anupama Chilambi,FALSE,10/4/2021 11:03,10/4/2021 8:12,IT
+ADevarapalli,ADevarapalli@uat.local,Anusha Devarapalli,FALSE,9/8/2021 9:21,,IT
+Ajefferson,Ajefferson@uat.local,Apryl Jefferson,TRUE,9/1/2025 12:26,2/20/2025 11:30,NAV_PDF_Reader_PDox
+adeen,adeen@uat.local,Aron Deen                                                   ,FALSE,,5/22/2019 13:58,
+akehayov,akehayov@uat.local,Asen Kehayov,FALSE,11/24/2020 14:17,11/25/2020 13:04,
+anjackson,anjackson@uat.local,Ashley Jackson                                              ,FALSE,11/30/2021 12:24,,
+AtlasLDAP,AtlasLDAP@uat.local,Atlas LDAP.,TRUE,11/13/2025 8:55,4/3/2023 16:52,
+Atlas_ePDM,Atlas_ePDM@uat.local,Atlas_ePDM,TRUE,2/8/2023 13:41,1/8/2020 11:09,
+ajordan,ajordan@uat.local,Aurion Jordan,TRUE,11/14/2025 12:31,11/14/2025 12:24,
+aculwell,aculwell@uat.local,Austin Culwell,FALSE,12/4/2019 12:57,12/3/2019 10:21,
+AZ_SQLRSIS_Agent,AZ_SQLRSIS_Agent@uat.local,AZ_SQLRSIS_Agent,TRUE,11/18/2025 7:59,7/10/2019 10:23,
+AZ_SSRS,AZ_SSRS@uat.local,AZ_SSRS,TRUE,5/28/2020 11:57,5/28/2020 11:44,
+Az_svcSQLRPT,Az_svcSQLRPT@uat.local,Az_svcSQLRPT,TRUE,11/13/2025 17:33,7/10/2019 18:37,
+AZAtlasIIS,AZAtlasIIS@uat.local,AZAtlasIIS,TRUE,11/16/2025 4:14,11/13/2019 16:57,Bit Photos Write
+AZServiceNowETL,AZServiceNowETL@uat.local,AZServiceNowETL,TRUE,,6/13/2019 14:47,
+AzSidekickETL,AzSidekickETL@uat.local,AzSidekickETL,TRUE,,7/10/2019 10:18,
+azsqlreportuser,azsqlreportuser@uat.local,azsqlreportuser,TRUE,11/14/2025 14:22,6/13/2019 14:47,
+AZsvcsapp,AZsvcsapp@uat.local,AZsvcsapp,TRUE,11/10/2025 20:40,6/13/2019 14:41,
+AzTaskSch,AzTaskSch@uat.local,AzTaskSch,TRUE,,7/10/2019 10:31,
+AzureAdamDev,AzureAdamDev@uat.local,AzureAdamDev,TRUE,1/22/2021 14:00,1/5/2021 15:35,Enterprise Admins
+AzureAdSyncDev,AzureAdSyncDev@uat.local,AzureAdSyncDev,TRUE,11/12/2025 8:45,4/14/2021 9:10,"SQL 2019 Cluster Admins, SQL Cluster Admins, Enterprise Admins"
+bakbari,bakbari@uat.local,Babak Akbari                                                ,FALSE,,5/22/2019 13:58,
+BStPierre,BStPierre@uat.local,Beau St Pierre                                              ,FALSE,8/4/2023 16:31,7/13/2023 13:48,"Engineering Console Users, Ulterra Enterprise Application Users, DDF_DesignEngineers, DDF_ApplicationsEngineers"
+bstewart,bstewart@uat.local,Beau Stewart                                                ,TRUE,10/7/2021 16:42,5/22/2019 13:58,
+bbasom,bbasom@uat.local,Ben Basom                                                   ,TRUE,7/7/2025 16:17,6/9/2025 12:33,
+bchrest,bchrest@uat.local,Ben Chrest                                                  ,FALSE,,5/22/2019 13:58,
+BPatel,BPatel@uat.local,Bhaumik Patel,FALSE,10/26/2021 8:11,,IT
+bbyrnes,bbyrnes@uat.local,Blake Byrnes                                                ,FALSE,,5/22/2019 13:58,
+bluka,bluka@uat.local,Bobby Luka,TRUE,11/23/2024 20:49,11/22/2024 12:59,
+BWalters,BWalters@uat.local,Brady Walters                                               ,TRUE,6/12/2024 20:37,4/29/2024 14:34,DDF_ApplicationsEngineers
+BHilburn,BHilburn@uat.local,Brian Hilburn,TRUE,6/15/2025 16:43,5/6/2025 12:03,
+brian.ho,brian.ho@uat.local,Brian Ho,TRUE,9/1/2025 19:18,8/29/2025 14:02,"IT, Ulterra Enterprise Application Users, Domain Admins"
+BVanbuerle,BVanbuerle@uat.local,Brian Van Buerle,TRUE,3/30/2021 15:50,1/7/2021 16:09,IT
+BSingh,BSingh@uat.local,Brij Singh,FALSE,10/21/2021 19:57,9/1/2021 18:04,
+BBerardi,BBerardi@uat.local,Brittany Berardi                                            ,FALSE,7/25/2019 13:01,7/12/2019 9:23,
+CHelms,CHelms@uat.local,Caleb Helms,FALSE,7/6/2022 14:11,,
+CDossman,CDossman@uat.local,Carlos Dossman,TRUE,6/5/2023 12:52,8/2/2022 10:21,
+clier,clier@uat.local,Cecile Lier                                                 ,FALSE,11/22/2024 19:13,11/22/2024 19:05,
+cdjohnson,cdjohnson@uat.local,Celebrete Johnson                                           ,FALSE,,5/22/2019 13:58,
+CGilbert,CGilbert@uat.local,Chamus Gilbert,TRUE,5/1/2025 8:51,9/17/2024 11:22,"NAV_PDF_Reader_PDox, IT"
+Cfarr,Cfarr@uat.local,Charles Farr,FALSE,7/27/2023 12:04,,IT
+CSeeney,CSeeney@uat.local,Chelsea Seeney,TRUE,12/11/2024 10:16,12/11/2024 10:09,NAV_PDF_Reader_PDox
+COlson,COlson@uat.local,Cheri Olson                                                 ,TRUE,11/22/2024 18:13,11/25/2024 11:21,
+ccasad,ccasad@uat.local,Chris Casad                                                 ,TRUE,7/12/2021 10:59,7/12/2021 10:58,
+ckaulback,ckaulback@uat.local,Christie Kaulback                                           ,FALSE,,5/22/2019 13:58,
+cgooch,cgooch@uat.local,Christopher Gooch,TRUE,9/24/2019 10:28,8/12/2019 11:33,
+CRico,CRico@uat.local,Christopher Rico,TRUE,6/14/2025 1:32,4/24/2025 11:33,Atlas Authentication
+cwang,cwang@uat.local,Chung Wang                                                  ,FALSE,5/31/2022 10:10,,"Engineering Console Users, DDF_DesignEngineers, DDF_ApplicationsEngineers"
+clesk,clesk@uat.local,Cindy Lesk                                                  ,TRUE,6/14/2025 18:37,3/6/2025 15:33,
+ctredway,ctredway@uat.local,Clint Tredway,FALSE,10/12/2020 8:10,10/7/2020 14:31,
+cmanshack,cmanshack@uat.local,Cody Manshack                                               ,FALSE,,5/22/2019 13:58,
+Cody.Muenster,Cody.Muenster@uat.local,Cody Muenster,TRUE,,9/23/2025 10:06,
+Cmoore,Cmoore@uat.local,Corey Moore,TRUE,,,
+csmith,csmith@uat.local,Curtis Smith                                                ,TRUE,11/18/2024 10:14,10/1/2024 14:51,
+CArana,CArana@uat.local,Cynthia Arana,TRUE,8/12/2022 10:18,8/12/2022 9:38,
+CCastilla,CCastilla@uat.local,Cynthia Castilla,FALSE,10/23/2023 11:19,10/27/2023 17:34,
+DHenderson,DHenderson@uat.local,Damarcus Henderson,TRUE,11/13/2025 13:31,1/6/2025 8:53,"Atlas Authentication, IT, Domain Admins"
+dcupp,dcupp@uat.local,Dane Cupp                                                   ,FALSE,2/20/2020 10:22,1/13/2020 14:52,
+DAdams,DAdams@uat.local,Daniel Adams,TRUE,,5/7/2020 17:31,
+dmejia,dmejia@uat.local,Daniel Mejia                                                ,TRUE,,5/22/2019 13:58,
+dmoates,dmoates@uat.local,Darrel Moates                                               ,FALSE,,5/22/2019 13:58,
+dforster,dforster@uat.local,Darryl Forster                                              ,FALSE,11/20/2020 11:35,11/20/2020 11:34,
+DNoll,DNoll@uat.local,David Noll                                                  ,TRUE,,5/22/2019 13:58,
+dsmith,dsmith@uat.local,David Smith,FALSE,9/9/2021 13:29,8/26/2021 13:01,
+dbruce,dbruce@uat.local,Derek Bruce                                                 ,FALSE,,5/22/2019 13:58,
+dgreer,dgreer@uat.local,Derek Greer,TRUE,9/24/2025 8:02,9/24/2025 7:59,"Atlas Authentication, SQL 2019 Cluster Admins, SQL Cluster Admins, Domain Admins"
+DEV_AzSvcsApp,DEV_AzSvcsApp@uat.local,DEV_AzSvcsApp,TRUE,11/11/2025 8:00,11/2/2023 10:35,
+dmccullough,dmccullough@uat.local,Devin McCullough                                            ,FALSE,7/26/2019 8:53,7/30/2019 14:42,
+DSoto,DSoto@uat.local,Diego Soto,FALSE,,,IT
+dhersey,dhersey@uat.local,Dion Hersey                                                 ,TRUE,7/12/2021 14:14,6/8/2021 16:17,
+dmulliken,dmulliken@uat.local,Doloes Mulliken,FALSE,6/23/2020 16:20,1/8/2025 9:32,
+DBavol,DBavol@uat.local,Don Bavol                                                   ,FALSE,7/26/2019 10:26,7/26/2019 10:26,
+dqueen,dqueen@uat.local,Don Queen                                                   ,FALSE,9/1/2020 16:26,9/1/2020 16:25,IT
+deadie,deadie@uat.local,Drew Eadie                                                  ,FALSE,,5/22/2019 13:58,
+EZhi,EZhi@uat.local,Eli Zhi                                                     ,FALSE,,5/22/2019 13:58,
+ekhairallah,ekhairallah@uat.local,Elie Khairallah                                             ,FALSE,7/28/2020 12:26,,
+ESoto,ESoto@uat.local,Elizabeth Soto,FALSE,,,
+egrimaldo,egrimaldo@uat.local,Enrique Grimaldo                                            ,FALSE,10/30/2019 8:48,10/30/2019 8:33,
+EPDM_PROD,EPDM_PROD@uat.local,EPDM_PROD,TRUE,,6/13/2019 15:06,
+epdm_sync,epdm_sync@uat.local,EPDM_Sync,TRUE,1/26/2021 21:44,9/8/2020 8:34,
+EMackie,EMackie@uat.local,Eric Mackie,TRUE,8/14/2025 6:50,11/5/2024 17:38,"NAV_PDF_Reader_PDox, IT"
+eescamilla,eescamilla@uat.local,Eugene Escamilla                                            ,FALSE,,5/22/2019 13:58,
+Fbhatti,Fbhatti@uat.local,Faraz Bhatti,TRUE,6/13/2025 20:02,4/22/2025 11:49,Atlas Authentication
+FFatima,FFatima@uat.local,Farheen Fatima,FALSE,1/28/2022 15:28,,IT
+FAlbretch,FAlbretch@uat.local,Felix Albrecht,FALSE,8/21/2021 14:55,7/9/2021 14:36,IT
+Falonzo,Falonzo@uat.local,Francisco Alonzo,TRUE,6/13/2025 22:02,6/2/2025 16:10,Atlas Authentication
+GSaldivar,GSaldivar@uat.local,Gabriel Saldivar                                            ,TRUE,,5/22/2019 13:58,
+glayton,glayton@uat.local,Gary Layton                                                 ,FALSE,4/27/2020 12:51,3/2/2020 11:50,
+GWolf,GWolf@uat.local,Gary Wolf,TRUE,2/11/2025 22:43,1/16/2025 14:31,"NAV_PDF_Reader_PDox, IT"
+GDuplessis,GDuplessis@uat.local,Geneke Du Plessis,FALSE,,11/2/2021 10:36,IT
+gvandyk,gvandyk@uat.local,Gerry van Dyk                                               ,FALSE,10/8/2019 14:41,10/8/2019 11:54,
+gkoroma,gkoroma@uat.local,Gibrilla Koroma,TRUE,10/2/2025 16:52,1/10/2025 15:02,Power_BI_Report
+GRedfern,GRedfern@uat.local,Glenn Redfern,FALSE,8/30/2023 16:29,7/24/2023 8:34,Atlas Authentication
+GJohnson,GJohnson@uat.local,Grant Johnson,TRUE,8/27/2025 23:14,8/6/2025 12:32,"Engineering Console Users, Ulterra Enterprise Application Users, DDF_DesignEngineers, DDF_ApplicationsEngineers"
+glepage,glepage@uat.local,Greg Lepage                                                 ,TRUE,6/14/2025 7:17,4/23/2025 12:50,Atlas Authentication
+Guest,,Guest,FALSE,,,Guests
+hhesham,hhesham@uat.local,Hany Hesham                                                 ,TRUE,11/10/2024 17:16,8/18/2024 19:19,
+HCasper,HCasper@uat.local,Hayley Casper,FALSE,8/11/2021 14:05,8/11/2021 14:05,
+hknight,hknight@uat.local,Helen Knight                                                ,TRUE,10/27/2025 10:53,9/3/2025 18:01,
+HMelendez,HMelendez@uat.local,Hugo Melendez,FALSE,10/29/2021 8:06,,
+hrestrepo,hrestrepo@uat.local,Hugo Restrepo                                               ,TRUE,11/22/2024 18:23,11/22/2024 18:15,
+ISerrano,ISerrano@uat.local,Ignis Serrano,TRUE,8/26/2025 11:09,8/26/2025 11:08,"NAV_PDF_Reader_PDox, Power_BI_Report"
+IMerin,IMerin@uat.local,Iydiah Merin,FALSE,,8/26/2021 14:48,
+jchee,jchee@uat.local,Jackie Chee                                                 ,TRUE,,5/22/2019 13:58,
+JProctor,JProctor@uat.local,Jamarcus Proctor,TRUE,11/10/2025 8:15,12/20/2024 10:36,"Atlas Authentication, Bit Photos Write, Citrix Xen 7 - Ulterra Enterprise Apps, sql_remote_users, IT, Engineering Console Users, Ulterra Enterprise Application Users"
+JStevens,JStevens@uat.local,James Stevens                                               ,TRUE,6/14/2025 4:02,4/24/2025 11:32,Atlas Authentication
+jcarrasco,jcarrasco@uat.local,Janna Carrasco                                              ,FALSE,,5/22/2019 13:58,
+jclark,jclark@uat.local,Jared Clark                                                 ,FALSE,,5/22/2019 13:58,
+JLeos,JLeos@uat.local,Jared Leos,TRUE,7/17/2025 18:47,5/16/2025 15:20,Atlas Authentication
+jbaldwin,jbaldwin@uat.local,Jason Baldwin                                               ,FALSE,4/4/2024 13:41,2/28/2024 9:49,IT
+jmaw,jmaw@uat.local,Jason Maw                                                   ,TRUE,8/15/2024 12:17,8/15/2024 12:57,
+jcgarcia,jcgarcia@uat.local,Jenny Carolina Garcia                                       ,FALSE,,5/22/2019 13:58,
+jartzberger,jartzberger@uat.local,Jeremy Artzberger,FALSE,11/7/2019 9:06,11/6/2019 15:04,
+jsantos,jsantos@uat.local,Jerome Santos                                               ,TRUE,,5/22/2019 13:58,
+JByrd,JByrd@uat.local,Jessica Byrd,TRUE,11/10/2025 7:10,12/18/2024 12:05,Atlas Authentication
+JetReportService,JetReportService@uat.local,Jet Report Service,TRUE,11/11/2025 14:43,2/14/2022 12:21,
+jle,jle@uat.local,Jimmy Le,FALSE,6/1/2021 8:19,,IT
+jriley,jriley@uat.local,Jodie Riley                                                 ,FALSE,12/13/2022 11:26,12/13/2022 11:45,
+jogarcia,jogarcia@uat.local,Joeselinne Garcia,TRUE,11/22/2024 15:38,11/22/2024 14:59,
+jclunan,jclunan@uat.local,John Clunan                                                 ,TRUE,,5/22/2019 13:58,
+jhawkins,jhawkins@uat.local,John Hawkins,FALSE,12/7/2021 16:48,9/3/2021 16:50,IT
+jlehman,jlehman@uat.local,John Lehman                                                 ,FALSE,,5/22/2019 13:58,
+JPfaffenberger,JPfaffenberger@uat.local,John Pfaffenberger,FALSE,10/4/2022 15:15,,
+JBoutsikakis,JBoutsikakis@uat.local,Johnny Boutsikakis,TRUE,8/12/2024 11:58,8/2/2024 11:44,Atlas Authentication
+JSilveus,JSilveus@uat.local,Jorge Silveus                                               ,TRUE,10/27/2025 13:29,10/16/2025 16:30,"Citrix Xen 7 - Ulterra Enterprise Apps, Ulterra Enterprise Application Users"
+jalvarado,jalvarado@uat.local,Jose Alvarado,FALSE,12/9/2019 11:01,11/25/2019 14:56,
+jsosa,jsosa@uat.local,Josefa Sosa                                                 ,FALSE,8/21/2020 13:08,,
+JMGreen,JMGreen@uat.local,Joshua Green,TRUE,8/16/2022 10:48,8/12/2022 9:41,
+jgarcia,jgarcia@uat.local,Juliette Garcia                                             ,TRUE,,5/22/2019 13:58,
+Kroethel,Kroethel@uat.local,Karen Roethel,FALSE,9/8/2022 10:06,9/9/2022 12:54,
+KShaffer,KShaffer@uat.local,Karen Shaffer,TRUE,1/10/2025 16:01,1/10/2025 14:33,Power_BI_Report
+KSanders,KSanders@uat.local,Kathleen Sanders,TRUE,8/24/2025 14:03,11/21/2024 17:55,"Atlas Authentication, IT"
+KBennetts,KBennetts@uat.local,Katrina Bennetts,TRUE,1/18/2023 13:24,,NAV_PDF_Reader_PDox
+KMa,KMa@uat.local,Kay Ma                                                      ,TRUE,6/16/2025 3:43,1/6/2025 15:43,"NAV_PDF_Reader_PDox, Power_BI_Report"
+kday,kday@uat.local,Keisha Day                                                  ,FALSE,7/16/2024 15:35,,
+KHays,KHays@uat.local,Kelsey Hays,TRUE,11/4/2025 9:13,1/2/2025 16:33,"Atlas Authentication, Citrix Xen 7 - Ulterra Enterprise Apps, NAV_PDF_Reader_PDox, IT, Engineering Console Users, Ulterra Enterprise Application Users"
+kdevers,kdevers@uat.local,Kevin Devers                                                ,FALSE,,5/22/2019 13:58,
+khinze,khinze@uat.local,Kevin Hinze,TRUE,12/4/2019 8:06,12/3/2019 10:19,
+knelson,knelson@uat.local,Knick Nelson                                                ,FALSE,,5/22/2019 13:58,
+krbtgt,,krbtgt,FALSE,,5/20/2019 15:02,Denied RODC Password Replication Group
+keverheart,keverheart@uat.local,Kristy Everheart                                            ,FALSE,,5/22/2019 13:58,
+LGalkauskas,LGalkauskas@uat.local,Laimis Galkauskas                                           ,FALSE,,5/22/2019 13:58,
+ldunn,ldunn@uat.local,LaQuita Dunn,TRUE,4/3/2025 9:15,1/27/2025 14:23,NAV_PDF_Reader_PDox
+LPreston,LPreston@uat.local,Larry Preston,TRUE,10/26/2025 12:29,1/3/2025 9:11,"Atlas Authentication, IT, Domain Admins"
+lgist,lgist@uat.local,Laura Gist                                                  ,TRUE,,5/22/2019 13:58,
+lsummers,lsummers@uat.local,Lauren Summers,FALSE,4/6/2020 9:19,3/12/2020 11:58,
+lprince,lprince@uat.local,Laurisa Prince                                              ,TRUE,9/10/2025 17:07,4/23/2025 11:22,
+lewilliams,lewilliams@uat.local,Leonard Williams,FALSE,1/13/2020 9:19,1/13/2020 9:17,
+LMerin,LMerin@uat.local,Lydiah Merin,FALSE,9/7/2021 11:09,,
+mbocanegra,mbocanegra@uat.local,Maddie Bocanegra                                            ,FALSE,,5/22/2019 13:58,
+malam,malam@uat.local,Mahabub Alam                                                ,TRUE,6/28/2021 11:08,6/8/2021 16:16,
+mmejia,mmejia@uat.local,Maria Mejia                                                 ,TRUE,,5/22/2019 13:58,
+Mario.Hines,Mario.Hines@uat.local,Mario Hines,TRUE,11/13/2025 12:28,9/17/2025 9:17,"Atlas Authentication, IT"
+MFithian,MFithian@uat.local,Marko Fithian,FALSE,4/6/2022 11:15,,IT
+MArchey,MArchey@uat.local,Matthew Archey,TRUE,2/26/2020 8:56,1/30/2020 9:34,
+mcurtin,mcurtin@uat.local,Matthew Curtin,TRUE,6/11/2025 14:40,5/22/2025 13:12,
+mroseman,mroseman@uat.local,Matthew Roseman                                             ,TRUE,,5/22/2019 13:58,Atlas Authentication
+MECM-DomainJoin,MECM-DomainJoin@uat.local,MECM DomainJoin,TRUE,5/26/2021 13:44,10/7/2020 10:31,
+MECM-NAA,MECM-NAA@uat.local,MECM NAA,TRUE,,10/7/2020 9:53,
+MECMSvc,MECMSvc@uat.local,MECM Service,TRUE,,10/7/2020 10:58,
+Masmith,Masmith@uat.local,Melissa A. Smith,TRUE,11/24/2024 14:16,11/22/2024 17:00,
+MBarnes,MBarnes@uat.local,Michael Barnes,TRUE,1/19/2022 11:27,12/8/2021 7:39,IT
+mpowada,mpowada@uat.local,Michael Powada,TRUE,6/24/2021 9:10,6/8/2021 16:16,
+mschmidt,mschmidt@uat.local,Michelle Schmidt                                            ,FALSE,6/10/2021 14:15,,
+MidServerUDTDev2,,MidServerUDTDev2,TRUE,11/11/2025 16:10,1/18/2025 13:59,"Domain Admins, Users"
+MRosales,MRosales@uat.local,Miguel Rosales,FALSE,1/23/2024 15:19,1/23/2024 15:15,"IT, Ulterra Enterprise Application Users"
+MJeannotte,MJeannotte@uat.local,Mimi Jeannotte,FALSE,1/20/2020 15:09,1/17/2020 17:37,
+mrothe,mrothe@uat.local,Mitch Rothe,FALSE,8/12/2019 8:14,8/9/2019 15:30,
+malhajri,malhajri@uat.local,Mohammed Al Hajri,TRUE,,12/11/2024 10:02,
+Mohammed.Elshikh,Mohammed.Elshikh@uat.local,Mohammed ElShikh,TRUE,6/9/2025 19:14,4/9/2025 10:03,
+mcompton,mcompton@uat.local,Morgan Compton,FALSE,12/11/2024 11:59,11/22/2024 18:15,NAV_PDF_Reader_PDox
+MIsringhouse,MIsringhouse@uat.local,Morgan Isringhouse,TRUE,10/27/2025 8:02,10/16/2025 16:10,
+mgold,mgold@uat.local,Moriah Gold                                                 ,FALSE,,5/22/2019 13:58,
+nsharipova,nsharipova@uat.local,Nasiba Sharipova                                            ,FALSE,1/6/2021 11:53,,Power_BI_Report
+ndorval,ndorval@uat.local,Nathan Dorval                                               ,FALSE,,5/22/2019 13:58,
+nmeece,nmeece@uat.local,Nathan Meece,FALSE,7/30/2019 16:10,7/30/2019 16:09,
+NWebster,NWebster@uat.local,Neal Webster,FALSE,9/22/2022 11:47,7/28/2022 10:49,IT
+nalonso,nalonso@uat.local,Nelson Alonso                                               ,TRUE,,5/22/2019 13:58,
+nlafrance,nlafrance@uat.local,Nic LaFrance                                                ,TRUE,7/30/2019 13:58,7/26/2019 8:55,
+nmenon,nmenon@uat.local,Nick Menon                                                  ,TRUE,,5/22/2019 13:58,
+NVanbiljon,NVanbiljon@uat.local,Nidene van Biljon,TRUE,11/2/2021 10:34,11/2/2021 10:31,IT
+ngray,ngray@uat.local,Nina Gray                                                   ,TRUE,12/11/2024 15:19,11/22/2024 14:08,
+pgrandhi,pgrandhi@uat.local,Padmavathi Grandhi,FALSE,3/19/2025 12:16,12/9/2024 12:14,
+PSalazar,PSalazar@uat.local,Paola Salazar                                               ,FALSE,,5/22/2019 13:58,
+Plemmon,Plemmon@uat.local,Patrick Lemmon,TRUE,12/6/2023 12:37,12/6/2023 12:36,
+pvy,pvy@uat.local,Paul Vy                                                     ,FALSE,4/17/2023 14:26,4/17/2023 14:25,"Citrix Xen 7 - CommInvoice, Atlas Data, AppID_Users, IT, Engineering Console Users, DDF_ApplicationsEngineers"
+psuarez,psuarez@uat.local,Paula Suarez,TRUE,11/14/2025 7:05,8/22/2025 14:32,"Atlas Authentication, IT"
+paultest,paultest@uat.local,paultest,FALSE,11/2/2023 7:10,11/10/2020 9:18,
+pweaver,pweaver@uat.local,Paytlin Weaver,TRUE,,5/29/2025 16:45,Atlas Authentication
+pvelu,pvelu@uat.local,Prabhu Velu,TRUE,11/10/2025 8:26,9/22/2025 16:28,"Atlas Authentication, IT"
+PVarma,PVarma@uat.local,Prahlad Varma,FALSE,9/1/2021 9:42,,
+pakumah,pakumah@uat.local,Prince Akumah                                               ,FALSE,1/28/2020 13:00,11/6/2019 15:01,
+Priya.Polisetti,Priya.Polisetti@uat.local,Priya Polisetti,TRUE,11/13/2025 11:48,9/22/2025 16:37,"Atlas Authentication, IT"
+rgoodship,rgoodship@uat.local,Rachel Goodship                                             ,FALSE,,5/22/2019 13:58,
+rthomas,rthomas@uat.local,Rachelle Thomas                                             ,FALSE,5/11/2020 10:24,7/24/2019 10:27,
+rroberts,rroberts@uat.local,Randy Roberts                                               ,FALSE,,5/22/2019 13:58,
+rrichter,rrichter@uat.local,Renee Richter,FALSE,2/29/2020 0:11,12/3/2019 10:20,
+rdemery,rdemery@uat.local,Richard Demery                                              ,FALSE,9/22/2021 9:17,9/22/2021 9:15,
+rrivera,rrivera@uat.local,Ricky Rivera                                                ,TRUE,5/28/2021 12:29,5/22/2019 13:58,
+Rjolley,Rjolley@uat.local,Robert Jolley,TRUE,,,
+RMcKenzie,RMcKenzie@uat.local,Robert McKenzie,FALSE,7/28/2025 17:00,8/4/2025 8:12,
+rtrego,rtrego@uat.local,Robert Trego,TRUE,,11/18/2024 16:08,
+RoboCopyUser,RoboCopyUser@uat.local,RoboCopyUser,TRUE,,6/11/2019 17:34,
+Rupa.Shrestha,Rupa.Shrestha@uat.local,Rupa Shrestha,TRUE,11/3/2025 8:38,9/22/2025 16:33,"Atlas Authentication, IT"
+rsiemens,rsiemens@uat.local,Ryan Siemens                                                ,TRUE,,5/22/2019 13:58,
+smasabattula,smasabattula@uat.local,Sai Masabattula,TRUE,11/17/2025 15:46,5/3/2024 11:44,"Atlas Authentication, IT"
+SWitt,SWitt@uat.local,Sam Witt.,TRUE,11/18/2025 15:51,8/14/2025 12:55,"Atlas Authentication, Citrix Xen 7 - Ulterra Enterprise Apps, NAV_PDF_Reader_PDox, IT, Engineering Console Users, Ulterra Enterprise Application Users"
+sjoshi,sjoshi@uat.local,Sanjivkumar Joshi                                           ,TRUE,,5/22/2019 13:58,
+shollowell,shollowell@uat.local,Savanah Hollowell                                           ,FALSE,,5/22/2019 13:58,
+scarefoot,scarefoot@uat.local,Scott Carefoot                                              ,TRUE,2/27/2024 11:56,2/27/2024 11:45,Atlas Authentication
+Sclyburn,Sclyburn@uat.local,Scott Clyburn,TRUE,11/17/2025 15:17,1/6/2025 8:57,"sql_remote_users, SQL 2019 Cluster Admins, SQL Cluster Admins, IT, Domain Admins"
+smcmillan,smcmillan@uat.local,Scott McMillan                                              ,TRUE,12/14/2023 15:01,11/20/2020 11:54,
+SBurney,SBurney@uat.local,Sean Burney,TRUE,9/2/2025 1:41,12/5/2024 9:38,IT
+Senthil.Kumar,Senthil.Kumar@uat.local,Senthil Kumar,TRUE,,11/7/2025 11:53,Atlas Authentication
+slinden,slinden@uat.local,Shawn Linden                                                ,TRUE,,5/22/2019 13:58,
+shawker,shawker@uat.local,Shelby Hawker                                               ,FALSE,,5/22/2019 13:58,
+Soham.Dhas,Soham.Dhas@uat.local,Soham Dhas,TRUE,11/14/2025 10:59,10/31/2025 14:22,"sql_remote_users, SQL 2019 Cluster Admins, SQL Cluster Admins, IT, Domain Admins"
+SCase,SCase@uat.local,Spencer Case                                                ,TRUE,5/7/2025 20:35,4/17/2025 9:31,"Citrix Xen 7 - Ulterra Enterprise Apps, Engineering Console Users, Ulterra Enterprise Application Users"
+SQL_MDSAdmin,SQL_MDSAdmin@uat.local,SQL_MDSAdmin,TRUE,11/3/2021 9:45,8/20/2019 8:22,
+SQLAdmin,SQLAdmin@uat.local,SQLAdmin SQLAdmin,TRUE,,6/13/2019 15:13,
+SrvcTest1,SrvcTest1@uat.local,SrvcTest1,TRUE,8/12/2020 14:07,8/12/2020 14:47,
+SrvcTest2,SrvcTest2@uat.local,SrvcTest2,TRUE,8/12/2020 14:12,8/12/2020 14:02,
+shill,shill@uat.local,Stanton Hill,FALSE,4/26/2021 14:58,,
+ssupina,ssupina@uat.local,Stephen Supina,FALSE,1/20/2020 11:13,1/24/2020 11:57,
+STJohnson,STJohnson@uat.local,Sterling Johnson,FALSE,10/24/2024 14:21,10/24/2024 14:12,"IT, Ulterra Enterprise Application Users"
+SWinters,SWinters@uat.local,Stormy Winters,TRUE,11/18/2025 14:46,8/6/2025 9:39,"IT, Ulterra Enterprise Application Users, Domain Admins, Schema Admins"
+SVasireddy,SVasireddy@uat.local,Suma Vasireddy,FALSE,12/2/2022 12:47,,IT
+shastings,shastings@uat.local,Susan Hastings,TRUE,11/22/2024 15:14,11/23/2024 12:49,
+SRobertson,SRobertson@uat.local,Susan Robertson,FALSE,,4/13/2020 14:54,
+SVCSAPP,SVCSAPP@uat.local,SVCSAPP,TRUE,,6/13/2019 14:44,
+swahabt,swahabt@uat.local,swahabt,TRUE,,8/22/2025 9:25,Atlas Authentication
+swahabt2,swahabt2@uat.local,swahabt2,TRUE,,8/22/2025 9:28,Atlas Authentication
+SWahab,SWahab@uat.local,Syed Wahab,TRUE,11/17/2025 9:32,12/5/2024 14:12,"Atlas Authentication, IT"
+TTravis,TTravis@uat.local,Tasha Travis,FALSE,5/25/2023 9:10,,IT
+tcunningham,tcunningham@uat.local,Taylor Cunningham                                           ,FALSE,,5/22/2019 13:58,
+TDuval,TDuval@uat.local,Taylor Duval                                                ,FALSE,6/16/2021 14:44,6/4/2021 9:07,"Engineering Console Users, DDF_DesignEngineers, DDF_ApplicationsEngineers"
+Template_EndUser,Template_EndUser@uat.local,Template End User                                           ,FALSE,,5/22/2019 13:58,
+twoodson,twoodson@uat.local,Teresa Woodson                                              ,TRUE,,5/22/2019 13:58,
+terrance.robinson,terrance.robinson@uat.local,Terrance Robinson,TRUE,11/10/2025 21:28,7/29/2025 16:47,"sql_remote_users, SQL 2019 Cluster Admins, SQL Cluster Admins, IT"
+TLee,TLee@uat.local,Terrence Lee                                                ,TRUE,2/7/2025 5:06,11/24/2024 9:53,Power_BI_Report
+TestStEng,TestStEng@uat.local,TestStEng Eng1                                              ,TRUE,,5/22/2019 13:58,
+TestStEng2,TestStEng2@uat.local,TestStEng2 ,FALSE,,5/22/2019 13:58,
+TLy,TLy@uat.local,Thao Ly                                                     ,FALSE,9/13/2023 12:26,9/22/2021 15:03,Power_BI_Report
+thardy,thardy@uat.local,Tim Hardy,FALSE,1/29/2020 9:25,11/13/2019 10:23,
+TMirabella,TMirabella@uat.local,Tina Mirabella                                              ,FALSE,11/12/2020 16:15,2/26/2021 10:53,
+TCarey,TCarey@uat.local,Todd Carey                                                  ,FALSE,7/22/2019 10:58,2/28/2020 16:27,
+tjohnson,tjohnson@uat.local,Todd Johnson,FALSE,12/5/2019 10:46,12/3/2019 10:22,
+TDamian,TDamian@uat.local,Tom Damian,TRUE,3/9/2022 18:59,1/25/2022 17:39,
+twilson,twilson@uat.local,Tom Wilson,FALSE,6/8/2022 14:31,,
+Tearley,Tearley@uat.local,Tonya Earley,TRUE,11/14/2025 8:52,6/5/2025 13:51,NAV_PDF_Reader_PDox
+ttuck,ttuck@uat.local,Tourey Tuck                                                 ,FALSE,,5/22/2019 13:58,
+tseeney,tseeney@uat.local,Travis Seeney,TRUE,7/11/2023 11:50,11/20/2020 11:10,
+TSutanto,TSutanto@uat.local,Trifena Sutanto                                             ,FALSE,8/6/2021 12:24,,
+TVu,TVu@uat.local,Tu Vu,TRUE,2/1/2024 13:16,2/7/2024 11:11,
+TAbolaji,TAbolaji@uat.local,Tunde Abolaji,FALSE,,2/14/2020 15:28,
+trobinson,trobinson@uat.local,Ty Robinson                                                 ,FALSE,,5/22/2019 13:58,
+tcloud,tcloud@uat.local,Tyler Cloud                                                 ,TRUE,8/20/2020 9:59,8/26/2019 13:01,
+UDTDomainJoin,UDTDomainJoin@uat.local,UDT DomainJoin,TRUE,6/25/2019 15:01,5/29/2019 8:01,
+udt_SQLSSASAgt,udt_SQLSSASAgt@uat.local,udt_SQLSSASAgt,TRUE,7/10/2019 18:41,7/10/2019 18:40,
+udtdev_navbcrtc,udtdev_navbcrtc@uat.local,udtdev_navbcrtc,TRUE,1/23/2024 8:30,2/1/2021 15:55,
+udtdev_navrtc,udtdev_navrtc@uat.local,udtdev_navrtc,TRUE,11/17/2025 10:17,7/12/2019 14:34,
+UDTDEVMECM01SQLAgent,UDTDEVMECM01SQLAgent@uat.local,UDTDEVMECM01 SQLAgent,TRUE,10/2/2020 10:35,10/2/2020 10:30,
+UDTDEVMECM01RPT,UDTDEVMECM01RPT@uat.local,UDTDEVMECM01 SQLRPT,TRUE,,10/2/2020 10:28,
+UDTDEVMECM01SQLServi,UDTDEVMECM01SQLService@uat.local,UDTDEVMECM01 SQLService,TRUE,1/27/2021 21:20,10/2/2020 10:26,
+udtsql2019agent,udtsql2019agent@uat.local,udtsql2019agent,TRUE,11/17/2025 21:30,2/1/2021 15:56,
+udtsql2019svc,udtsql2019svc@uat.local,udtsql2019svc,TRUE,11/17/2025 22:00,2/1/2021 15:57,
+udtsqlagent,udtsqlagent@uat.local,udtsqlagent,TRUE,10/25/2025 18:49,5/23/2019 14:46,
+udtsqlbi02_svc,udtsqlbi02_svc@uat.local,udtsqlbi02_svc,TRUE,11/12/2025 17:14,8/12/2021 5:55,
+udtsqlsvc,udtsqlsvc@uat.local,udtsqlsvc,TRUE,10/25/2025 18:49,5/23/2019 14:46,
+ulterrabits,ulterrabits@uat.local,Ulterra Ulterra,FALSE,9/16/2019 9:16,8/19/2019 14:59,
+UlterraChangeAuditor,UlterraChangeAuditor@uat.local,UlterraChangeAuditor,TRUE,,6/13/2019 15:10,
+UlterraEntApp_Prod,UlterraEntApp_Prod@uat.local,UlterraEntApp_Prod,TRUE,,7/10/2019 10:27,
+Ubear,Ubear@uat.local,Ulysses Bear,FALSE,3/6/2023 7:22,,IT
+UUmrani,UUmrani@uat.local,Uzma Umrani,FALSE,,,
+Vhowell,Vhowell@uat.local,Valerie Howell,FALSE,3/25/2024 10:38,3/25/2024 9:07,
+VWojtas,VWojtas@uat.local,Vanessa Wojtas,TRUE,11/11/2025 17:11,6/18/2025 10:50,"Atlas Authentication, JETServiceTier, Citrix Xen 7 - Ulterra Enterprise Apps, IT, Engineering Console Users, Ulterra Enterprise Application Users"
+vram,vram@uat.local,Vinay Ram                                                   ,TRUE,10/13/2022 17:09,4/13/2020 9:27,
+VPham,VPham@uat.local,Vincent Pham,FALSE,7/1/2021 10:19,,IT
+Vineesh.Vengilat,Vineesh.Vengilat@uat.local,Vineesh Vengilat,TRUE,,11/7/2025 11:52,Atlas Authentication
+vvbuskirk,vvbuskirk@uat.local,Virginia Van Buskirk                                        ,FALSE,,5/22/2019 13:58,
+VRajput,VRajput@uat.local,Vishal Rajput,TRUE,12/7/2022 16:32,11/21/2022 13:00,IT
+wwade,wwade@uat.local,Will Wade                                                   ,TRUE,,5/22/2019 13:58,
+WDubose,WDubose@uat.local,William Dubose                                              ,TRUE,8/19/2022 8:54,8/19/2022 8:54,
+WThomas,WThomas@uat.local,William Thomas,TRUE,10/2/2025 14:26,1/2/2025 16:38,"Atlas Authentication, IT, Remote Desktop Users, Domain Admins"
+XTrujillo,XTrujillo@uat.local,Xan Trujillo,TRUE,11/4/2025 16:08,1/6/2025 15:22,"JETServiceTier, Citrix Xen 7 - Ulterra Enterprise Apps, IT, Engineering Console Users, Ulterra Enterprise Application Users"
+zsmith,zsmith@uat.local,Zach Smith                                                  ,TRUE,11/9/2025 2:58,1/3/2025 12:10,"Atlas Authentication, IT, Ulterra Enterprise Application Users, Domain Admins, Schema Admins"
+ZFerris,ZFerris@uat.local,Zebulon Ferris,TRUE,5/9/2024 11:03,5/9/2024 11:03,

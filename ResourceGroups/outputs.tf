@@ -17,13 +17,3 @@ output "servers_rg_id" {
   value       = azurerm_resource_group.servers.id
   description = "ID of the servers resource group"
 }
-
-output "avd_rg_name" {
-  value       = azurerm_resource_group.avd.name
-  description = "Name of the AVD resource group"
-}
-
-output "avd_rg_id" {
-  value       = azurerm_resource_group.avd.id
-  description = "ID of the AVD resource group"
-}

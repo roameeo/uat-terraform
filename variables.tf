@@ -29,23 +29,11 @@ variable "servers_rg_name" {
   default     = "UATSERVERRG"
 }
 
-variable "avd_rg_name" {
-  type        = string
-  description = "Name of the AVD resource group"
-  default     = "UATAVDRG"
-}
-
 # Network Configuration
 variable "vnet_name" {
   type        = string
   description = "Name of the virtual network"
   default     = "UATSERVERVNET"
-}
-
-variable "avd_vnet_name" {
-  type        = string
-  description = "Name of the AVD virtual network"
-  default     = "UATAVDVNET"
 }
 
 # VM Names
@@ -111,6 +99,25 @@ variable "vm_password_secret_names" {
   type        = map(string)
   description = "Map of VM names to Key Vault secret names for admin passwords"
   default     = {}
+}
+
+# Meraki vMX Configuration
+variable "meraki_token" {
+  type        = string
+  description = "Meraki authentication token for vMX"
+  sensitive   = true
+}
+
+variable "vmx_vm_size" {
+  type        = string
+  description = "Azure VM size for Meraki vMX"
+  default     = "Standard_D3_v2"
+}
+
+variable "vmx_hostname" {
+  type        = string
+  description = "Hostname for the Meraki vMX"
+  default     = "UATVMX01"
 }
 
 # Common tags

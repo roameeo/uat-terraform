@@ -3,7 +3,6 @@ module "resource_groups" {
   source           = "./ResourceGroups"
   network_rg_name  = var.network_rg_name
   servers_rg_name  = var.servers_rg_name
-  avd_rg_name      = var.avd_rg_name
   location         = var.location
   tags             = var.tags
 }
@@ -13,15 +12,8 @@ module "network" {
   source          = "./Network"
   rg_name         = module.resource_groups.network_rg_name
   vnet_name       = var.vnet_name
-  avd_rg_name     = module.resource_groups.avd_rg_name
-  avd_vnet_name   = var.avd_vnet_name
   tags            = var.tags
   location        = var.location
-
-  providers = {
-    azurerm      = azurerm
-    azurerm.prod = azurerm.prod
-  }
 
   depends_on = [module.resource_groups]
 }
@@ -47,21 +39,20 @@ module "compute" {
   depends_on = [module.network]
 }
 
-# AVD Module
-module "avd" {
-  source                            = "./AVD"
-  rg_name                           = module.resource_groups.avd_rg_name
-  location                          = var.location
-  tags                              = var.tags
-  avd_subnet_id                     = module.network.avd_workspaces_subnet_id
-  dns_servers                       = ["10.0.2.5", "10.0.2.4"]
-  admin_username                    = var.admin_username
-  admin_password                    = var.admin_password
-  domain_name                       = var.domain_name
-  domain_join_username              = var.domain_join_username
-  domain_admin_password             = var.domain_admin_password
-  key_vault_id                      = var.key_vault_id
-  domain_admin_password_secret_name = var.domain_admin_password_secret_name
-
-  depends_on = [module.network, module.compute]
-}
+# Meraki Module
+# Note: vMX deployed as Azure Managed Application from Meraki Dashboard
+# Managed by portal, not Terraform - resources are in managed RG: mrg-cisco-meraki-vmx-20251203082153
+# module "meraki" {
+#   source         = "./Meraki"
+#   rg_name        = module.resource_groups.network_rg_name
+#   location       = var.location
+#   dmz_subnet_id  = module.network.dmz_subnet_id
+#   meraki_token   = var.meraki_token
+#   vmx_vm_size    = var.vmx_vm_size
+#   vmx_hostname   = var.vmx_hostname
+#   admin_username = var.admin_username
+#   admin_password = var.admin_password
+#   tags           = var.tags
+#
+#   depends_on = [module.network]
+# }
