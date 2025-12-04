@@ -32,3 +32,23 @@ output "bastion_host_id" {
   value       = azurerm_bastion_host.bastion.id
   description = "ID of the bastion host"
 }
+
+output "ad_nsg_id" {
+  value       = azurerm_network_security_group.ad.id
+  description = "ID of the AD NSG"
+}
+
+output "application_nsg_id" {
+  value       = azurerm_network_security_group.application.id
+  description = "ID of the Application NSG"
+}
+
+output "sql_nsg_id" {
+  value       = azurerm_network_security_group.sql.id
+  description = "ID of the SQL NSG"
+}
+
+output "dmz_nsg_id" {
+  value       = azurerm_network_security_group.dmz.id
+  description = "ID of the DMZ NSG"
+}

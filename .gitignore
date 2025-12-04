@@ -25,3 +25,10 @@ terraform.rc
 
 # Ignore lock files (optional - some teams commit this)
 # .terraform.lock.hcl
+
+# Ignore executables
+*.exe
+*.dll
+
+# Ignore Terraform plan files
+*.tfplan
